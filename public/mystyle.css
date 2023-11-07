@@ -1,0 +1,36 @@
+body{
+    background-color: aquamarine;
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hargafinal{
+    font-weight: bold;
+    color: brown;
+}
+
+a:link{
+    text-decoration: none;
+    color: green;
+}
+a:visited{
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+}
+
+.profilepicture{
+    border-radius: 50%;
+}
+
+.photoframe{
+    border-radius: 25%;
+    border: 2px solid red; /* tebal jenis warna*/
+    padding: 20px; /* jarak isi dengan border*/
+    width: 300px;/* jika tidak diset akan full 1 halaman*/
+}
