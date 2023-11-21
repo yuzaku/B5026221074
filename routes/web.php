@@ -58,3 +58,14 @@ Route::get('pertemuan_7', function () {
 });
 Route::get('perkalian', 'App\Http\Controllers\DosenController@index');
 Route::get('biodata', 'App\Http\Controllers\DosenController@biodata');
+Route::get('showJam/{jam}', 'App\Http\Controllers\DosenController@showJam');
+Route::get('/formulir', 'App\Http\Controllers\DosenController@formulir');
+Route::post('/formulir/proses', 'App\Http\Controllers\DosenController@proses');
+
+//route CRUD
+Route::get('/pegawai','App\Http\Controllers\PegawaiController@index');
+Route::get('/pegawai/tambah','PegawaiController@tambah');
+Route::post('/pegawai/store','PegawaiController@store');
+Route::get('/pegawai/edit/{id}','PegawaiController@edit');
+Route::post('/pegawai/update','PegawaiController@update');
+Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
