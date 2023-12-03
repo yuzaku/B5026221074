@@ -8,6 +8,24 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .border-lihat {
+        border-style: solid;
+        border-width: 3px;
+        border-color: black;
+        border-radius: 7px;
+    }
+    .border-all{
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba(0,0,0,.125);
+    }
+    .square{
+        width: 300px;
+        height: 400px;
+        color: transparent;
+    }
+</style>
 </head>
 <body>
 
