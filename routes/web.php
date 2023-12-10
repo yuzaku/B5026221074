@@ -76,8 +76,14 @@ Route::get('/nilaikuliah','App\Http\Controllers\NilaiKuliahController@nilaikulia
 Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiKuliahController@store');
 Route::get('/nilaikuliah/buat','App\Http\Controllers\NilaiKuliahController@buat');
 
-Route :
 Route::get('/keranjangbelanja', 'App\Http\Controllers\KeranjangBelanjaController@keranjangbelanja');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangBelanjaController@store');
 Route::get('/keranjangbelanja/tambahbelanja','App\Http\Controllers\KeranjangBelanjaController@tambahbelanja');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangBelanjaController@hapus');
+
+Route::get('/snack','App\Http\Controllers\SnackController@snack');
+Route::get('/snack/tambah','App\Http\Controllers\SnackController@tambahsnack');
+Route::post('/snack/store','App\Http\Controllers\SnackController@store');
+Route::get('/snack/editsnack/{id}','App\Http\Controllers\SnackController@editsnack');
+Route::post('/snack/update','App\Http\Controllers\SnackController@updatesnack');
+Route::get('/snack/hapus/{id}','App\Http\Controllers\SnackController@hapussnack');

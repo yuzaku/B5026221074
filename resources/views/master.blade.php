@@ -28,6 +28,9 @@
     .align-right{
         text-align: right;
     }
+    .align-left{
+        text-align: left;
+    }
 </style>
 </head>
 <body>
