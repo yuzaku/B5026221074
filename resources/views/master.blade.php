@@ -25,6 +25,9 @@
         height: 400px;
         color: transparent;
     }
+    .align-right{
+        text-align: right;
+    }
 </style>
 </head>
 <body>
