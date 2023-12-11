@@ -9,13 +9,7 @@
 		{{ csrf_field() }}
 		<input type="hidden" name="NRP" value="{{ $m->NRP }}"> <br/>
         <div class="form-group row">
-            <label class="control-label col-sm-2 align-right">NRP:</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control" name="NRP" value="{{ $m->NRP }}" placeholder="Masukkan NRP">
-            </div>
-          </div>
-        <div class="form-group row">
-            <label class="control-label col-sm-2 align-right" >Nama</label>
+            <label class="control-label col-sm-2 align-right" >Nama:</label>
             <div class="col-sm-10">
               <input type="text" class="form-control" name="Nama" value="{{ $m->Nama}}" placeholder="Masukkan Nama">
             </div>
